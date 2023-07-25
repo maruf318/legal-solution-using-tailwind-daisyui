@@ -28,6 +28,9 @@
             },
             backgroundImage: {
               "banner-bg": "url('./images/banner.png')",
+              "slider1-bg": "url('./images/slider-1.jpg')",
+              "slider2-bg": "url('./images/slider-2.jpg')",
+              "slider3-bg": "url('./images/slider-3.jpg')",
             },
           },
         },
@@ -174,7 +177,7 @@
         </div>
       </section>
       <!-- Legal Practices section -->
-      <section class="mt-20 font-poppins">
+      <section class="mt-20 mb-20 font-poppins">
         <div class="text-center space-y-6">
           <h2 class="font-garamond text-4xl font-extrabold">
             The Legal Practice Area
@@ -186,10 +189,10 @@
           </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 m-2">
+        <div class="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 m-2">
           <!-- card-first -->
           <div
-            class="card bg-base-100 border-stone-100 border-2 rounded-none md:border-l-0 md:border-t-0"
+            class="card hover:bg-gradient-to-b from-[#F3F3F3] to-[#ffffff] border-stone-100 border-2 rounded-none md:border-l-0 md:border-t-0"
           >
             <figure class="px-10 pt-10">
               <img
@@ -206,8 +209,8 @@
                 injected humour.
               </p>
               <div class="card-actions">
-                <button class="btn btn-brown rounded-full">
-                  <img src="./images/Frame.png" alt="" />
+                <button class="btn bg-transparent border-0">
+                  <img class="rounded-full" src="./images/Frame.png" alt="" />
                 </button>
               </div>
             </div>
@@ -215,7 +218,9 @@
 
           <!-- Second Card -->
 
-          <div class="card bg-base-100 border-stone-100 border-2 rounded-none">
+          <div
+            class="card hover:bg-gradient-to-b from-[#F3F3F3] to-[#ffffff] border-stone-100 border-2 rounded-none"
+          >
             <figure class="px-10 pt-10">
               <img
                 src="./images/criminal.png"
@@ -241,7 +246,7 @@
           <!-- Third card -->
 
           <div
-            class="card bg-base-100 border-stone-100 border-2 rounded-none md:border-r-0 md:border-t-0"
+            class="card hover:bg-gradient-to-b from-[#F3F3F3] to-[#ffffff] border-stone-100 border-2 rounded-none md:border-r-0 md:border-t-0"
           >
             <figure class="px-10 pt-10">
               <img
@@ -268,7 +273,7 @@
           <!-- Fourth card -->
 
           <div
-            class="card bg-base-100 border-stone-100 border-2 rounded-none md:border-b-0 md:border-l-0"
+            class="card hover:bg-gradient-to-b from-[#F3F3F3] to-[#ffffff] border-stone-100 border-2 rounded-none md:border-b-0 md:border-l-0"
           >
             <figure class="px-10 pt-10">
               <img
@@ -295,7 +300,7 @@
           <!-- Fifth card -->
 
           <div
-            class="card bg-base-100 border-stone-100 border-2 rounded-none md:border-b-0"
+            class="card hover:bg-gradient-to-b from-[#F3F3F3] to-[#ffffff] border-stone-100 border-2 rounded-none md:border-b-0"
           >
             <figure class="px-10 pt-10">
               <img
@@ -322,7 +327,7 @@
           <!-- Sixth card -->
 
           <div
-            class="card bg-base-100 border-stone-100 border-2 rounded-none md:border-b-0 md:border-r-0"
+            class="card hover:bg-gradient-to-b from-[#F3F3F3] to-[#ffffff] border-stone-100 border-2 rounded-none md:border-b-0 md:border-r-0"
           >
             <figure class="px-10 pt-10">
               <img src="./images/tax.png" alt="Tax" class="rounded-xl" />
@@ -343,6 +348,124 @@
           </div>
         </div>
       </section>
+      <!-- Client Review -->
+      <section class="mt-20 mb-20 font-poppins">
+        <div class="text-center space-y-6">
+          <h2 class="font-garamond text-4xl font-extrabold">
+            What Our Client Say
+          </h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+        <div class="mt-20">
+          <div class="carousel w-full">
+            <!-- Slide 1 -->
+            <div id="slide1" class="carousel-item relative w-full">
+              <!-- <img src="./images/slider-1.jpg" class="w-full" /> -->
+              <div class="flex justify-center items-center">
+                <div
+                  class="bg-slider1-bg text-white bg-cover min-h-screen w-full flex justify-center items-center"
+                >
+                  <div class="mx-auto w-3/4 md:w-2/4 text-center space-y-7">
+                    <div class="">
+                      <img
+                        class="mx-auto"
+                        src="./images/Ellipse 1.png"
+                        alt=""
+                      />
+                    </div>
+                    <h2 class="text-2xl font-extrabold">Awlad Hossain</h2>
+                    <p>UIX Designer</p>
+                    <p>
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature from 45 BC, making it over 2000 years old.
+                      Richard McClintock, a Latin professor at Hampden-Sydney
+                      College in Virginia, looked up one of the more obscure
+                      Latin words, consectetur.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a
+                  href="#slide4"
+                  class="btn btn-circle bg-transparent text-white border-0"
+                  >❮</a
+                >
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="./images/slider-2.jpg" class="w-full" />
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <!-- Slide-3 -->
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="./images/slider-3.jpg" class="w-full" />
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="footer p-10 bg-base-200 text-base-content md:pl-36">
+      <div>
+        <span class="footer-title">Services</span>
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </div>
+      <div>
+        <span class="footer-title">Company</span>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </div>
+      <div>
+        <span class="footer-title">Legal</span>
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </div>
+      <div>
+        <span class="footer-title">Newsletter</span>
+        <div class="form-control w-80">
+          <label class="label">
+            <span class="label-text">Enter your email address</span>
+          </label>
+          <div class="relative">
+            <input
+              type="text"
+              placeholder="username@site.com"
+              class="input input-bordered w-full pr-16"
+            />
+            <button
+              class="btn btn-primary absolute top-0 right-0 rounded-l-none"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
